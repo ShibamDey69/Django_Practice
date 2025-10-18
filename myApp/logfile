@@ -1,0 +1,42 @@
+2025-10-18 23:48:58.504 IST [30720] LOG:  starting PostgreSQL 17.0 on aarch64-unknown-linux-android, compiled by Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2), 64-bit
+2025-10-18 23:48:58.514 IST [30720] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-10-18 23:48:58.518 IST [30720] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2025-10-18 23:48:58.524 IST [30726] LOG:  database system was shut down at 2025-10-18 23:48:43 IST
+2025-10-18 23:48:58.544 IST [30720] LOG:  database system is ready to accept connections
+2025-10-18 23:50:31.062 IST [31010] FATAL:  role "postgres" does not exist
+2025-10-18 23:50:45.108 IST [31150] FATAL:  role "postgres" does not exist
+2025-10-18 23:51:45.399 IST [31446] FATAL:  role "postgres" does not exist
+2025-10-18 23:52:34.875 IST [31999] FATAL:  database "u0_a290" does not exist
+2025-10-18 23:53:58.528 IST [30724] LOG:  checkpoint starting: time
+2025-10-18 23:54:02.936 IST [30724] LOG:  checkpoint complete: wrote 46 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.366 s, sync=0.010 s, total=4.408 s; sync files=11, longest=0.003 s, average=0.001 s; distance=269 kB, estimate=269 kB; lsn=0/1531760, redo lsn=0/1531708
+2025-10-18 23:54:03.814 IST [32399] FATAL:  role "myusername" does not exist
+2025-10-18 23:54:40.143 IST [32526] FATAL:  role "postgres" does not exist
+2025-10-18 23:55:23.624 IST [32716] FATAL:  role "myusername" does not exist
+2025-10-18 23:55:58.293 IST [431] FATAL:  role "postgres" does not exist
+2025-10-18 23:56:40.772 IST [925] FATAL:  database "u0_a290" does not exist
+2025-10-18 23:58:39.280 IST [30720] LOG:  received fast shutdown request
+2025-10-18 23:58:39.285 IST [30720] LOG:  aborting any active transactions
+2025-10-18 23:58:39.299 IST [30720] LOG:  background worker "logical replication launcher" (PID 30729) exited with exit code 1
+2025-10-18 23:58:39.301 IST [30724] LOG:  shutting down
+2025-10-18 23:58:39.305 IST [30724] LOG:  checkpoint starting: shutdown immediate
+2025-10-18 23:58:39.352 IST [30724] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.001 s, total=0.051 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=242 kB; lsn=0/1531810, redo lsn=0/1531810
+2025-10-18 23:58:39.391 IST [30720] LOG:  database system is shut down
+2025-10-18 23:59:36.827 IST [2505] LOG:  starting PostgreSQL 17.0 on aarch64-unknown-linux-android, compiled by Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2), 64-bit
+2025-10-18 23:59:36.839 IST [2505] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-10-18 23:59:36.842 IST [2505] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2025-10-18 23:59:36.846 IST [2512] LOG:  database system was shut down at 2025-10-18 23:59:05 IST
+2025-10-18 23:59:36.855 IST [2505] LOG:  database system is ready to accept connections
+2025-10-18 23:59:55.050 IST [2701] FATAL:  database "u0_a290" does not exist
+2025-10-19 00:00:56.708 IST [3817] FATAL:  role "postgres" does not exist
+2025-10-19 00:02:58.834 IST [5305] ERROR:  role "u0_a290" already exists
+2025-10-19 00:02:58.834 IST [5305] STATEMENT:  CREATE ROLE u0_a290 SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN NOREPLICATION NOBYPASSRLS;
+2025-10-19 00:03:21.282 IST [5404] FATAL:  role "myusername" does not exist
+2025-10-19 00:03:38.399 IST [5521] FATAL:  role "postgres" does not exist
+2025-10-19 00:04:10.808 IST [5673] FATAL:  database "u0_a290" does not exist
+2025-10-19 00:04:30.064 IST [5790] FATAL:  role "mydb" does not exist
+2025-10-19 00:04:36.947 IST [2509] LOG:  checkpoint starting: time
+2025-10-19 00:04:39.534 IST [5838] FATAL:  role "myusername" does not exist
+2025-10-19 00:04:41.369 IST [2509] LOG:  checkpoint complete: wrote 46 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.365 s, sync=0.013 s, total=4.423 s; sync files=11, longest=0.004 s, average=0.002 s; distance=269 kB, estimate=269 kB; lsn=0/1531798, redo lsn=0/1531708
+2025-10-19 00:05:28.573 IST [6321] FATAL:  role "postgres" does not exist
+2025-10-19 00:09:36.408 IST [2509] LOG:  checkpoint starting: time
+2025-10-19 00:11:16.053 IST [2509] LOG:  checkpoint complete: wrote 984 buffers (6.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=99.322 s, sync=0.250 s, total=99.646 s; sync files=364, longest=0.002 s, average=0.001 s; distance=4545 kB, estimate=4545 kB; lsn=0/19A1F58, redo lsn=0/19A1EC8
